@@ -65,7 +65,7 @@ Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrast
 To run the F5 Super NetOps Docker container and automatically download the best practices code base, issue the following command:
 
 
-**docker run -p 8080:80 -p 2222:22 --rm -it -v user_repos.json:/tmp/user_repos.json -e SNOPS_GH_BRANCH=develop f5devcentral/f5-super-netops-container:develop-ansible**
+```docker run -p 8080:80 -p 2222:22 --rm -it -v user_repos.json:/tmp/user_repos.json -e SNOPS_GH_BRANCH=develop f5devcentral/f5-super-netops-container:develop-ansible```
 
 
 
@@ -73,7 +73,7 @@ The above commnd requires the user_repos.json file which is a config file that t
 
 user_repos.json file example:
 
-**{
+```{
   "repos": [
     {
       "name":"ansible_f5",
@@ -83,20 +83,19 @@ user_repos.json file example:
       "skipinstall":true
     }
   ]
-}**
+}```
 
 ## Conclusion
 Managing your infrastructure as code is very beneficial, it provides: repeatability, automation, agility, scalability, reassurance, and disaster recovery. All of which are incredibly important to a modern, dynamic infrastructure. Software development best practices are key to scaling and managing the modern dynamic data center, and I2aC provides a platform for turning your infrastructure organization into a modern, agile one. The ability to move and pivot your infrastructure quickly is now a requirement for most organizations. 
 
 
-
-                                          **Works Cited**
+## Works Cited
 Nelson-Smith, Stephen. "Chapter 1." Test-driven Infrastructure with Chef. Beijing: O'Reilly, 2013. 
-https://en.wikipedia.org/wiki/Dynamic_infrastructure
- https://en.wikipedia.org/wiki/Infrastructure_as_Code
- https://puppet.com/resources/whitepaper/2016-state-of-devops-report
- https://info.microsoft.com/WE-Azure-CNTNT-FY16-05May-09-Forrester-Report-Infrastructure-As-Code-Fueling-The-Fire-For-Faster-Application-Delivery.html
-  http://www.cio.com/article/3017722/infrastructure/what-is-infrastructure-as-code-and-why-should-you-embrace-it.html
+[1]: https://en.wikipedia.org/wiki/Dynamic_infrastructure
+[2]: https://en.wikipedia.org/wiki/Infrastructure_as_Code
+[3]: https://puppet.com/resources/whitepaper/2016-state-of-devops-report
+[4]: https://info.microsoft.com/WE-Azure-CNTNT-FY16-05May-09-Forrester-Report-Infrastructure-As-Code-Fueling-The-Fire-For-Faster-Application-Delivery.html
+[5]: http://www.cio.com/article/3017722/infrastructure/what-is-infrastructure-as-code-and-why-should-you-embrace-it.html
 https://github.com/ansible/ansible
 
 
