@@ -73,7 +73,8 @@ The above commnd requires the user_repos.json file which is a config file that t
 
 user_repos.json file example:
 
-```{
+```
+{
   "repos": [
     {
       "name":"ansible_f5",
@@ -83,7 +84,8 @@ user_repos.json file example:
       "skipinstall":true
     }
   ]
-}```
+}
+```
 
 ## Conclusion
 Managing your infrastructure as code is very beneficial, it provides: repeatability, automation, agility, scalability, reassurance, and disaster recovery. All of which are incredibly important to a modern, dynamic infrastructure. Software development best practices are key to scaling and managing the modern dynamic data center, and I2aC provides a platform for turning your infrastructure organization into a modern, agile one. The ability to move and pivot your infrastructure quickly is now a requirement for most organizations. 
