@@ -93,11 +93,11 @@ Managing your infrastructure as code is very beneficial, it provides: repeatabil
 
 ## Works Cited
 ```
-Nelson-Smith, Stephen. "Chapter 1." Test-driven Infrastructure with Chef. Beijing: O'Reilly, 2013. 
-[1]: https://en.wikipedia.org/wiki/Dynamic_infrastructure
-[2]: https://en.wikipedia.org/wiki/Infrastructure_as_Code
-[3]: https://puppet.com/resources/whitepaper/2016-state-of-devops-report
-[4]: https://info.microsoft.com/WE-Azure-CNTNT-FY16-05May-09-Forrester-Report-Infrastructure-As-Code-Fueling-The-Fire-For-Faster-Application-Delivery.html
-[5]: http://www.cio.com/article/3017722/infrastructure/what-is-infrastructure-as-code-and-why-should-you-embrace-it.html
-https://github.com/ansible/ansible
+[1]: Nelson-Smith, Stephen. "Chapter 1." Test-driven Infrastructure with Chef. Beijing: O'Reilly, 2013. 
+[2]: https://en.wikipedia.org/wiki/Dynamic_infrastructure
+[3]: https://en.wikipedia.org/wiki/Infrastructure_as_Code
+[4]: https://puppet.com/resources/whitepaper/2016-state-of-devops-report
+[5]: https://info.microsoft.com/WE-Azure-CNTNT-FY16-05May-09-Forrester-Report-Infrastructure-As-Code-Fueling-The-Fire-For-Faster-Application-Delivery.html
+[6]: http://www.cio.com/article/3017722/infrastructure/what-is-infrastructure-as-code-and-why-should-you-embrace-it.html
+[7]: https://github.com/ansible/ansible
 ```
