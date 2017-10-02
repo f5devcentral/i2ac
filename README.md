@@ -7,7 +7,7 @@ Infrastructure 2.0 as Code (I2aC) is the ability to model your dynamic infrastru
 ## Introduction
 “Software is eating the world” was a phrase coined by Netscape founder and venture capitalist Marc Andreesen in a Wall Street Journal article on August 20, 2011. It is an apt description of what is happening in networking, data centers and at F5 Networks today. In short, infrastructure has never been more dynamic or programmable. Infrastructure 2.0 is a synonym for these new dynamic IT infrastructures ; modeling them in code is the future.  Programmability is rapidly becoming the recommended approach to configure and orchestrate a BIG-IP device. Gone are the days of using the GUI or the CLI to manually massage a device into existence. 
 
-Software is simply too hungry, its eating up every industry and creating hundreds if not thousands of application services at companies both small and large.  The average engineer or admin has simply too many complex applications to care for, and cannot keep up, without programmatic automation. Infrastructure 2.0 as Code (I2aC) is an answer to this problem. By using modern software development best practices and dynamic infrastructure approaches, engineers can leverage advanced programmability capabilities and configure and control their network and data center infrastructures. 
+Software is simply too hungry, it's eating up every industry and creating hundreds if not thousands of application services at companies both small and large.  The average engineer or admin has simply too many complex applications to care for, and cannot keep up, without programmatic automation. Infrastructure 2.0 as Code (I2aC) is an answer to this problem. By using modern software development best practices and dynamic infrastructure approaches, engineers can leverage advanced programmability capabilities and configure and control their network and data center infrastructures. 
 
 This blog article discusses the modern dynamic IT infrastructure, the benefits of managing your infrastructure as a software development project, and the importance of collaborative automation. It also summarizes and cites from industry the best practices and key recommendations of this important movement. 
 
@@ -53,7 +53,11 @@ Learning and understanding how to manage your infrastructure and BIG-IP’s as a
 
 
 ## A Call to Arms
-Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrastructure automation tool such as Ansible is easy to learn and use thanks to its simplified design and approach. “Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems”. F5 Networks has created a demonstration and learning environment utilizing Docker. This “F5 Super NetOps” Docker environment downloads F5 Network’s Ansible best practice based example code base. The combination of the Docker demo/learning environment and the Ansible code will surely get a new I2aC practitioner on their way to freedom from the GUI and CLI and allow them to take advantage of all the benefits of Infrastructure 2.0 as Code.  These benefits are exemplified in the practices of infrastructure as code by Stephen Nelson-Smith. They are:
+Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrastructure automation tool such as Ansible is easy to learn and use thanks to its simplified design and approach. “Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems”.
+
+F5 Networks has created a demonstration and learning environment utilizing Docker. This “F5 Super NetOps” Docker environment downloads F5 Network’s Ansible best practice based example code base. The combination of the Docker demo/learning environment and the Ansible code will surely get a new I2aC practitioner on their way to freedom from the GUI and CLI and allow them to take advantage of all the benefits of Infrastructure 2.0 as Code.  These benefits are exemplified in the practices of infrastructure as code by Stephen Nelson-Smith. 
+
+They are:
 •	Repeatability – The very act of modeling your infrastructure in code provides repeatability. Every configuration element is captured in the code and the IaC tool will enforce that defined configuration each and every time it is run. IaC provides confidence that the infrastructure is configured and operating in the way it is supposed to be. 
 •	Automation – The very act of abstracting out infrastructures brings us the benefits of automation. 
 •	Agility – Utilizing collaborative automation techniques like configuration management provide a confidence in the various versions of the IaC code base. This allows an engineer or administrator to roll forward or backward if a problem were encountered. Logs of who did what when are available and can be analyzed to determine who or what caused the problem. This minimizes the average time to fix problems and encourages root cause analysis.
@@ -62,14 +66,14 @@ Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrast
 •	Disaster Recovery – In the event of a catastrophic event that wipes out the production systems, if your entire infrastructure has been broken down into modular components and described as code, recovery is as simple as provisioning new compute power, restoring from backup, and deploying the infrastructure and application code. What may have been a business ending event in the old paradigm of custom-built, partially automated infrastructure becomes a manageable few hour outage, potentially delivering competitive value over those organizations suffering from the same external influences, but without the power and flexibility brought about by infrastructure as code.
 
 
-To run the F5 Super NetOps Docker container and automatically download the best practices code base, issue the following command:
+To run the F5 Open Source Super NetOps Docker container and automatically download the best practices code base, issue the following command:
 
 
 ```docker run -p 8080:80 -p 2222:22 --rm -it -v user_repos.json:/tmp/user_repos.json -e SNOPS_GH_BRANCH=develop f5devcentral/f5-super-netops-container:develop-ansible```
 
 
 
-The above commnd requires the user_repos.json file which is a config file that tells the Docker container where to find the best practices based Ansible code base. 
+The above command requires the user_repos.json file which is a config file that tells the Docker container where to find the best practices based Ansible code base. 
 
 user_repos.json file example:
 
