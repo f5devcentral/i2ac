@@ -14,24 +14,24 @@ This blog article discusses the modern dynamic IT infrastructure, the benefits o
 
 ## What is Infrastructure 2.0 as Code (I2aC)
 Infrastructure as Code (IaC) is a 10-year-old practice of DevOps. It is arguably the most important one. It is the linchpin in a modern dynamic infrastructure. The value of Infrastructure as Code can be broken down into three, measurable categories: 
-•	Cost (reduction)
-•	Speed (faster execution)
-•	Risk (remove errors and security violations) 
+*	Cost (reduction)
+*	Speed (faster execution)
+*	Risk (remove errors and security violations) 
 
 It has allowed organizations large and small to scale and achieve velocity across their infrastructure portfolios by modeling their infrastructures as software, and then managing those models as software projects. It has been said that DevOps is 90% culture and 10% tools. This paper is a call to arms to get network administrators and engineers using modern IaC approaches, and collaborative automation techniques. 
 
 Puppet, an IaC company produces a State of DevOps report every year. Key findings from the report for 2016 survey were 
-•	High-performing organizations deploy 200x more frequently
-•	Recover 24x faster from failures
-•	Have 2,555x shorter lead times
-•	Have 3x lower change failure rates than low-performing ones
+*	High-performing organizations deploy 200x more frequently
+*	Recover 24x faster from failures
+*	Have 2,555x shorter lead times
+*	Have 3x lower change failure rates than low-performing ones
 
 They also enjoy better
-•	Employee loyalty (as measured by Net Promoter Scores)
-•	Spend 22 percent less time on unplanned work and rework
-•	Spend 50 percent less time remediating security issues
-•	Benefit from an experimental approach to product development
-•	Achieve significant cost savings from a (DevOps-driven) technology transformation. 
+*	Employee loyalty (as measured by Net Promoter Scores)
+*	Spend 22 percent less time on unplanned work and rework
+*	Spend 50 percent less time remediating security issues
+*	Benefit from an experimental approach to product development
+*	Achieve significant cost savings from a (DevOps-driven) technology transformation. 
 
 Treating infrastructure as code is a key element of DevOps, and it benefits both dev and ops teams. This new dynamic infrastructure approach is sweeping through the fields of network administration and engineering. IaC is one of the cornerstones of DevOps. It is the “A” in the DevOps tenets of “CAMS”: Culture, Automation, Metrics, and Sharing.  It is DevOps’ cornerstone, its foundation, its mainstay. Simply put, without automation there would be no DevOps. It provides a software development driven “operating system” for managing virtualized and bare-metal resources as software development projects. In today’s cloudy world we no longer need to build and maintain a few devices by hand, we need to be able to provision and manage hundreds if not thousands of servers and BIG-IPs and configure and orchestrate them in an automated and as collaborative a way as possible. 
 
@@ -53,17 +53,17 @@ Learning and understanding how to manage your infrastructure and BIG-IP’s as a
 
 
 ## A Call to Arms
-Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrastructure automation tool such as Ansible is easy to learn and use thanks to its simplified design and approach. “Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems”.
+Now is the time to get involved and learn Infrastructure 2.0 as Code. An infrastructure automation tool such as Ansible is easy to learn and use thanks to its simplified design and approach. “Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems”[7].
 
 F5 Networks has created a demonstration and learning environment utilizing Docker. This “F5 Super NetOps” Docker environment downloads F5 Network’s Ansible best practice based example code base. The combination of the Docker demo/learning environment and the Ansible code will surely get a new I2aC practitioner on their way to freedom from the GUI and CLI and allow them to take advantage of all the benefits of Infrastructure 2.0 as Code.  These benefits are exemplified in the practices of infrastructure as code by Stephen Nelson-Smith. 
 
 They are:
-•	Repeatability – The very act of modeling your infrastructure in code provides repeatability. Every configuration element is captured in the code and the IaC tool will enforce that defined configuration each and every time it is run. IaC provides confidence that the infrastructure is configured and operating in the way it is supposed to be. 
-•	Automation – The very act of abstracting out infrastructures brings us the benefits of automation. 
-•	Agility – Utilizing collaborative automation techniques like configuration management provide a confidence in the various versions of the IaC code base. This allows an engineer or administrator to roll forward or backward if a problem were encountered. Logs of who did what when are available and can be analyzed to determine who or what caused the problem. This minimizes the average time to fix problems and encourages root cause analysis.
-•	Scalability – Repeatability plus automation makes scalability much easier, especially when combined with the rapid hardware provisioning that the cloud provides.
-•	Reassurance – The fact that the architecture, design, and implementation of our infrastructure is modeled in code means we that we can automatically have documentation. Any programmer can look at the source code and see at a glance how the systems work. This is a welcome change from the common scenario in which only a s single sysadmin or architect holds the understanding of how the system hangs together. That is risky- this person is now able to hold the organization ransom, and should they leave or become ill, the company is endangered.
-•	Disaster Recovery – In the event of a catastrophic event that wipes out the production systems, if your entire infrastructure has been broken down into modular components and described as code, recovery is as simple as provisioning new compute power, restoring from backup, and deploying the infrastructure and application code. What may have been a business ending event in the old paradigm of custom-built, partially automated infrastructure becomes a manageable few hour outage, potentially delivering competitive value over those organizations suffering from the same external influences, but without the power and flexibility brought about by infrastructure as code.
+*	Repeatability – The very act of modeling your infrastructure in code provides repeatability. Every configuration element is captured in the code and the IaC tool will enforce that defined configuration each and every time it is run. IaC provides confidence that the infrastructure is configured and operating in the way it is supposed to be. 
+*	Automation – The very act of abstracting out infrastructures brings us the benefits of automation. 
+*	Agility – Utilizing collaborative automation techniques like configuration management provide a confidence in the various versions of the IaC code base. This allows an engineer or administrator to roll forward or backward if a problem were encountered. Logs of who did what when are available and can be analyzed to determine who or what caused the problem. This minimizes the average time to fix problems and encourages root cause analysis.
+*	Scalability – Repeatability plus automation makes scalability much easier, especially when combined with the rapid hardware provisioning that the cloud provides.
+*	Reassurance – The fact that the architecture, design, and implementation of our infrastructure is modeled in code means we that we can automatically have documentation. Any programmer can look at the source code and see at a glance how the systems work. This is a welcome change from the common scenario in which only a s single sysadmin or architect holds the understanding of how the system hangs together. That is risky- this person is now able to hold the organization ransom, and should they leave or become ill, the company is endangered.
+*	Disaster Recovery – In the event of a catastrophic event that wipes out the production systems, if your entire infrastructure has been broken down into modular components and described as code, recovery is as simple as provisioning new compute power, restoring from backup, and deploying the infrastructure and application code. What may have been a business ending event in the old paradigm of custom-built, partially automated infrastructure becomes a manageable few hour outage, potentially delivering competitive value over those organizations suffering from the same external influences, but without the power and flexibility brought about by infrastructure as code.
 
 
 To run the F5 Open Source Super NetOps Docker container and automatically download the best practices code base, issue the following command:
