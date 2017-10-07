@@ -1,9 +1,10 @@
 # Check out [Super NetOps](https://f5.com/supernetops)
 
-## Keep an eye out for Super NetOps Champions: 
+## Keep an eye out for Super NetOps Champions:
+
 @mcgonagle @delgadillo22 @0xhiteshpatel
 
-## Enter to win a $50 Dollar AMEX Gift Card By Providing Feedback
+## Enter to win a $50 Dollar AMEX Gift Card By Providing Feedback Below and via a Pull Request
 <!--- Please Provide as much feedback as possible via a pull request. -->
 
 
