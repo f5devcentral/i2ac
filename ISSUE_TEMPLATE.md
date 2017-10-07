@@ -1,3 +1,10 @@
-# Enter to win a $50 Dollar AMEX Gift Card
+# Keep an eye out for Super NetOps Champions: 
+@mcgonagle 
+@delgadillo22
+@0xhiteshpatel
 
-Come look for @mcgonagle @delgadillo or @0xhiteshpatel
+# Enter to win a $50 Dollar AMEX Gift Card By Providing Feedback
+<!--- Please Provide as much feedback as possible via a pull request. -->
+
+# [Super NetOps](https://f5.com/supernetops)
+
