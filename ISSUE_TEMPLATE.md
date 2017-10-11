@@ -4,7 +4,7 @@
 
 @mcgonagle @delgadillo22 @0xhiteshpatel
 
-## Enter to win a $50 Dollar AMEX Gift Card By Providing Feedback Below and via a Pull Request
-<!--- Please Provide as much feedback as possible via a pull request. -->
+## Enter to win a $50 Dollar AMEX Gift Card By Providing Feedback Below
+<!--- Please Provide as much feedback as possible. -->
 
 
